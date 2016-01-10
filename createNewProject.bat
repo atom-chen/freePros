@@ -1,4 +1,4 @@
-rem 此文件放在create_project.py 同级目录下。命令窗口运行 create_project.py  可以知道什么创建一个新的工程，此文件需要放在和 create_project.py同一级目录下
+rem 此文件放在create_project.py 同级目录下。命令窗口运行 create_project.py 可以知道什么创建一个新的工程
 @echo off
 set /p projectName=projectName:
 if "%projectName%" == "" goto inputError1
