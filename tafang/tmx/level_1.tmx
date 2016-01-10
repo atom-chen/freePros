@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="bg1" tilewidth="64" tileheight="64">
+  <image source="bg1.png" width="192" height="192"/>
+ </tileset>
+ <layer name="bg" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJydkUsOABAMREtR7n9hLCTNZHxi8YKO6rRMRHRgD5zutY9YGFRCvOjm1klxe9SZ57SpV4keSb5BPQU/6GX5w3mwXpTE2AzypheveQqc2d/cdHzjFO+3vAQI
+  </data>
+ </layer>
+ <objectgroup name="path" width="15" height="10">
+  <object name="1" x="32" y="480"/>
+  <object name="2" x="352" y="480"/>
+  <object name="3" x="352" y="288"/>
+  <object name="4" x="96" y="288"/>
+  <object name="5" x="96" y="160"/>
+  <object name="6" x="480" y="160"/>
+  <object name="7" x="480" y="480"/>
+  <object name="8" x="800" y="480"/>
+  <object name="9" x="800" y="288"/>
+  <object name="10" x="608" y="288"/>
+  <object name="11" x="608" y="160"/>
+  <object name="12" x="960" y="160"/>
+ </objectgroup>
+ <objectgroup name="disorder" width="15" height="10">
+  <object x="96" y="32"/>
+  <object x="96" y="416"/>
+  <object x="224" y="96"/>
+  <object x="160" y="544"/>
+  <object x="288" y="608"/>
+  <object x="416" y="544"/>
+  <object x="288" y="224"/>
+  <object x="544" y="96"/>
+  <object x="736" y="32"/>
+  <object x="864" y="96"/>
+  <object x="736" y="224"/>
+  <object x="672" y="416"/>
+  <object x="672" y="608"/>
+  <object x="928" y="544"/>
+  <object x="928" y="352"/>
+  <object x="416" y="352"/>
+  <object x="34" y="474">
+   <ellipse/>
+  </object>
+  <object x="92" y="474">
+   <ellipse/>
+  </object>
+  <object x="176" y="482">
+   <ellipse/>
+  </object>
+  <object x="222" y="480">
+   <ellipse/>
+  </object>
+  <object x="276" y="484">
+   <ellipse/>
+  </object>
+  <object x="356" y="478">
+   <ellipse/>
+  </object>
+  <object x="350" y="420">
+   <ellipse/>
+  </object>
+  <object x="344" y="356">
+   <ellipse/>
+  </object>
+  <object x="344" y="284">
+   <ellipse/>
+  </object>
+  <object x="272" y="276">
+   <ellipse/>
+  </object>
+  <object x="212" y="286">
+   <ellipse/>
+  </object>
+  <object x="150" y="280">
+   <ellipse/>
+  </object>
+  <object x="90" y="272">
+   <ellipse/>
+  </object>
+  <object x="94" y="218">
+   <ellipse/>
+  </object>
+  <object x="104" y="170">
+   <ellipse/>
+  </object>
+  <object x="154" y="156">
+   <ellipse/>
+  </object>
+  <object x="208" y="160">
+   <ellipse/>
+  </object>
+  <object x="284" y="164">
+   <ellipse/>
+  </object>
+  <object x="346" y="160">
+   <ellipse/>
+  </object>
+  <object x="404" y="158">
+   <ellipse/>
+  </object>
+  <object x="476" y="164">
+   <ellipse/>
+  </object>
+  <object x="486" y="216">
+   <ellipse/>
+  </object>
+  <object x="484" y="276">
+   <ellipse/>
+  </object>
+  <object x="486" y="350">
+   <ellipse/>
+  </object>
+  <object x="478" y="416">
+   <ellipse/>
+  </object>
+  <object x="480" y="486">
+   <ellipse/>
+  </object>
+  <object x="550" y="484">
+   <ellipse/>
+  </object>
+  <object x="598" y="476">
+   <ellipse/>
+  </object>
+  <object x="668" y="480">
+   <ellipse/>
+  </object>
+  <object x="744" y="482">
+   <ellipse/>
+  </object>
+  <object x="810" y="474">
+   <ellipse/>
+  </object>
+  <object x="794" y="412">
+   <ellipse/>
+  </object>
+  <object x="804" y="354">
+   <ellipse/>
+  </object>
+  <object x="790" y="286">
+   <ellipse/>
+  </object>
+  <object x="730" y="282">
+   <ellipse/>
+  </object>
+  <object x="686" y="288">
+   <ellipse/>
+  </object>
+  <object x="608" y="286">
+   <ellipse/>
+  </object>
+  <object x="610" y="232">
+   <ellipse/>
+  </object>
+  <object x="616" y="164">
+   <ellipse/>
+  </object>
+  <object x="672" y="152">
+   <ellipse/>
+  </object>
+  <object x="728" y="160">
+   <ellipse/>
+  </object>
+  <object x="808" y="160">
+   <ellipse/>
+  </object>
+  <object x="870" y="162">
+   <ellipse/>
+  </object>
+  <object x="930" y="164">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

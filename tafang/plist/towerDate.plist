@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>COST</key>
+		<array>
+			<string>100</string>
+			<string>180</string>
+			<string>260</string>
+		</array>
+		<key>MYBULLET</key>
+		<string>boundary</string>
+		<key>RADIUS</key>
+		<array>
+			<string>128</string>
+			<string>160</string>
+			<string>192</string>
+		</array>
+		<key>RATE</key>
+		<array>
+			<string>0.55</string>
+			<string>0.5</string>
+			<string>0.45</string>
+		</array>
+		<key>SALE</key>
+		<array>
+			<string>80</string>
+			<string>144</string>
+			<string>208</string>
+		</array>
+		<key>TOWERNAME</key>
+		<string>bunker</string>
+	</dict>
+	<dict>
+		<key>COST</key>
+		<array>
+			<string>120</string>
+			<string>200</string>
+			<string>280</string>
+		</array>
+		<key>MYBULLET</key>
+		<string>star</string>
+		<key>RADIUS</key>
+		<array>
+			<string>128</string>
+			<string>160</string>
+			<string>192</string>
+		</array>
+		<key>RATE</key>
+		<array>
+			<string>0.8</string>
+			<string>0.4</string>
+			<string>0.2</string>
+		</array>
+		<key>SALE</key>
+		<array>
+			<string>96</string>
+			<string>160</string>
+			<string>224</string>
+		</array>
+		<key>TOWERNAME</key>
+		<string>cannontower</string>
+	</dict>
+</array>
+</plist>

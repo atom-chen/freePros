@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="45" height="11" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map1" tilewidth="32" tileheight="32">
+  <image source="map1.png" width="1440" height="379"/>
+ </tileset>
+ <layer name="块层 1" width="45" height="11" opacity="0.94">
+  <data encoding="base64" compression="zlib">
+   eJwtz0O0GAYARNEf27Zt27Zt27Zt27ZtqzEbu3HaxmmDu/jnzF2+xQQJCAgISjCCE4KQhCI0YQhLOMITgYhEIjJRiEo0ohODmMQiNnGISzzik4CEJCIxSUhKMpKTgpSkIjVpSEs60pOBjGQiM1nISjayk4Oc5CI3echLPvJTgIIUojBFKEoxilOCkpSiNGUoSznKU4GKVKIyVahKNapTg5rUojZ1qEs96tOAhjSiMU1oSjOa04KWtKI1bWhLO9rTgY50ojNd6Eo3utODnvSiN33oSz/6M4CBDGIwQxjKMIYzgpGMYjRjGMs4xjOBiUxiMlOYyjSmM4OZzGI2c5jLPOazgIUsYjFLWMoylrOClaxiNWtYyzrWs4GNbGIzW9jKNrazg53sYjd72Ms+9nOAgxziMEc4yjGOc4KTnOI0ZzjLOf7gPBe4yCUuc4WrXOM6N7jJLf7kNne4yz3u84CHPOIxT3jKM57zFy94ySte84a3vOM9f/MP//KBj3ziM1/4yje+8x//84Of/CIgiBGUYAQnBCEJRWjCEJZwhCcCEYlEZKIQlWhEJwYxiUVs4hCXeMQnAQlJRGKSkJRkJCcFKUlFatKQlnSkJwMZyURmspCVbGQnBznJRW7ykJd85KcABSlEYYpQlGIUpwQlKUVpylCWcpSnAhWpRGWqUJVqVKcGNalFbepQl3rUpwENaURjmtCUZjSnBS1pRWva0JZ2tKcDHelEZ7rQlW50pwc96UVv+tCXfvRnAAMZxGCGMJRhDGcEIxnFaMYwlnGMZwITmcRkpjCVaUxnBjOZxWzmMJd5zGcBC1nEYpawlGUsZwUrWcVq1rCWdaxnAxvZxGa2sJVtbGcHO9nFbvawl33s5wAHOcRhjnCUYxznBCc5xWnOcJZzgT/Oc4GLXOIyV7jKNa5zg5vcCmxuc4e73OM+D3jIIx7zhKc843lg94KXvOI1b3jLO97zGyTN77s=
+  </data>
+ </layer>
+ <objectgroup name="coins" width="45" height="11">
+  <object x="106" y="256"/>
+  <object x="147" y="207"/>
+  <object x="375" y="265"/>
+  <object x="475" y="232"/>
+  <object x="379" y="293"/>
+  <object x="1089" y="158"/>
+  <object x="1117" y="135"/>
+  <object x="1175" y="133"/>
+  <object x="521" y="304"/>
+  <object x="550" y="303"/>
+ </objectgroup>
+ <objectgroup name="boxs" width="45" height="11">
+  <object x="128" y="320"/>
+  <object x="534" y="280"/>
+  <object x="1032" y="265"/>
+ </objectgroup>
+ <objectgroup name="floors" width="45" height="11">
+  <object x="0" y="320" width="288" height="32"/>
+  <object x="320" y="320" width="384" height="32"/>
+  <object x="1184" y="320" width="256" height="32"/>
+  <object x="736" y="320" width="416" height="32"/>
+ </objectgroup>
+ <objectgroup name="battery" width="45" height="11">
+  <object x="1112" y="325"/>
+ </objectgroup>
+</map>

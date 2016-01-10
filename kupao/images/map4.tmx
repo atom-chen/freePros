@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="45" height="11" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map1" tilewidth="32" tileheight="32">
+  <image source="map1.png" width="1440" height="379"/>
+ </tileset>
+ <layer name="块层 1" width="45" height="11" opacity="0.94">
+  <data encoding="base64" compression="zlib">
+   eJwtz0OUGAgARMGJbdu2bdu2bdu2bds2Jk52Y9t2FsmiDvNe1/EfOlhAQEBwQhCSUIQmDGEJR3giEJFIRCYKUYlGdGIQk1jEJg5xiUd8EpCQRCQmCUlJRnJSkJJUpCYNaUlHejKQkUxkJgtZyUZ2cpCTXOQmD3nJR34KUJBCFKYIRSlGcUpQklKUpgxlKUd5KlCRSlSmClWpRnVqUJNa1KYOdalHfRrQkEY0pglNaUZzWtCSVrSmDW1pR3s60JFOdKYLXelGd3rQk170pg996Ud/BjCQQQxmCEMZxnBGMJJRjGYMYxnHeCYwkUlMZgpTmcZ0ZjCTWcxmDnOZx3wWsJBFLGYJS1nGclawklWsZg1rWcd6NrCRTWxmC1vZxnZ2sJNd7GYPe9nHfg5wkEMc5ghHOcZxTnCSQE5xmjOc5RznucBFLvEbv3OZK1zlGte5wU1ucZs73OUe93nAQx7xmCc85RnPecFLXvGaN7zlHe/5wEc+8ZkvfOUb3/nBH/zJX/zNT37xD//yHwHBjOCEICShCE0YwhKO8EQgIpGITBSiEo3oxCAmsYhNHOISj/gkICGJSEwSkpKM5KQgJalITRrSko70ZCAjmchMFrKSjezkICe5yE0e8pKP/BSgIIUoTBGKUozilKAkpShNGcpSjvJUoCKVqEwVqlKN6tSgJrWoTR3qUo/6NKAhjWhME5rSjOa0oCWtaE0b2tKO9nSgI53oTBe60o3u9KAnvehNH/rSj/4MYCCDGMwQhjKM4YxgJKMYzRjGMo7xTGAik5jMFKYyjenMYCazmM0c5jKP+SxgIYtYzBKWsozlrGAlq1jNGtayjvVsYCOb2MwWtrKN7exgJ7vYzR72so/9HOAghzjMEY5yjOOc4CSBnOI0ZzjLOc5zgYtcCvoWGOQKV7nGdW5wk1vc5g53uRfUPeAhj3jME57yjOe84CWveM2boO4d7/nAR/4HH8Hvkw==
+  </data>
+ </layer>
+ <objectgroup name="coins" width="45" height="11">
+  <object x="455" y="264"/>
+  <object x="496" y="243"/>
+  <object x="543" y="225"/>
+  <object x="585" y="217"/>
+  <object x="624" y="227"/>
+  <object x="657" y="244"/>
+  <object x="681" y="268"/>
+  <object x="705" y="300"/>
+  <object x="743" y="313"/>
+  <object x="768" y="313"/>
+  <object x="800" y="309"/>
+  <object x="861" y="277"/>
+  <object x="937" y="247"/>
+  <object x="996" y="231"/>
+  <object x="1036" y="227"/>
+  <object x="1095" y="241"/>
+  <object x="1128" y="265"/>
+  <object x="1172" y="297"/>
+  <object x="1325" y="223"/>
+  <object x="422" y="285"/>
+  <object x="381" y="286"/>
+ </objectgroup>
+ <objectgroup name="boxs" width="45" height="11">
+  <object x="609" y="320"/>
+  <object x="1250" y="275"/>
+  <object x="938" y="320"/>
+ </objectgroup>
+ <objectgroup name="floors" width="45" height="11">
+  <object x="0" y="320" width="384" height="32"/>
+  <object x="416" y="320" width="416" height="32"/>
+  <object x="864" y="320" width="416" height="32"/>
+  <object x="1312" y="320" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup name="battery" width="45" height="11">
+  <object x="1340" y="325"/>
+ </objectgroup>
+</map>
